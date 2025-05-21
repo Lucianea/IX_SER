@@ -1,0 +1,157 @@
+---
+title: "Sociedade 5.0 & Smart Cities:  <br/>  Conceitos e Reflexões"
+subtitle: "<br/>in:IX Seminário Internacional de Estatística com R"
+author: "Luciane Ferreira Alcoforado"
+institute: "Academia da Força Aérea Brasileira"
+date: "2025-05-27"
+format: 
+  beamer: 
+    aspectratio: 32
+    navigation: horizontal
+    theme: AnnArbor
+    colortheme: "lily" #https://quarto.org/docs/presentations/beamer.html
+    background-image: fundo.jpg
+    header-includes: |
+      \titlegraphic{\includegraphics[width=0.1\paperwidth]{afa.jpg}}
+---
+
+## Uma geração em extinção
+
+**Fabrício Carpinejar:** “A geração de 40 a 50 anos é uma geração à beira de extinção.”
+
+Se adaptou à tecnologia mas viveu o passado analógico...é moderna mas tão antiga quanto os pais ou os avós...
+
+## Mobilidade
+
+::::: columns
+::: {.column width="50%"}
+![](charretes.jpg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](carro_voador_anuncios.png){fig-align="center"}
+:::
+:::::
+
+## Comunicação
+
+![](orelhoes.png){fig-align="center"}
+
+## Moradia
+
+![](quintal.png){fig-align="center" width="60%"}
+
+## Educação à Distância
+
+![](moodle.png){fig-align="center"}
+
+## Conceito de Sociedade 5.0
+
+-  Governo Japonês no 5° Plano Básico de Ciência e Tecnologia, 2016
+
+-   “equilibrar o avanço econômico com a resolução de problemas sociais, para garantir que todos os cidadãos possam levar vidas de alta qualidade, com conforto e vitalidade”
+
+![](evolucao_sociedade.png){fig-align="center" width="45%"} 
+
+
+
+\center caça, agricultura, industrial, informação, hiperconexão
+\tiny
+
+{fonte: <https://doi.org/10.1007/978-981-15-2989-4>}
+\normalsize
+
+## Conceito de Smart City
+
+Baseado no livro "The Smart City perspective" de  **Rudolf Giffinger** e **Hui Lu**
+
+
+**A cidade inteligente é considerada o resultado de um processo de aprendizagem baseado em evidências locais, que colocam o indivíduo no centro da política urbana.**
+
+
+![](smart_city.png){fig-align="center" width="50%"}
+
+
+## Publicação Nacional
+
+- Planejamento, Governança, Mobilidade, Educação e Saúde 
+
+![](livro_andre.png){fig-align="center" width="50%"}
+
+## ABNT-INDICADORES
+
+\small
+- ABNT NBR ISO 37120_ SERVIÇOS URBANOS E QUALIDADE DE VIDA
+
+- ABNT NBR ISO 37122_ CIDADES INTELIGENTES
+
+- ABNT NBR ISO 37123_ CIDADES RESILIENTES
+
+\normalsize
+
+Mensurar o desenvolvimento urbano sustentável, investimentos em infraestrutura, gestão de desempenho de serviços urbanos e qualidade de vida.
+
+![](abnt.png){fig-align="center" width="40%"}
+
+## Ranking Connected Smart Cities
+
+656 cidades analisadas em 74 indicadores e 11 eixos temáticos:
+
+- 41 com mais de 500 mil habitantes,
+- 278 com 100 a 500 mil habitantes e
+- 337 com 50 a 100 mil habitantes.
+
+
+![](ranking_urban_systems.png){fig-align="center" width="103%"}
+
+## Ranking 2024
+
+**Florianópolis em 1o. lugar**
+
+![](ranking_2024.png){fig-align="center" width="105%"}
+
+## Dashboard Comparativo: Florianópolis x Niterói
+
+
+![](compara_flo_nit_2024.png){fig-align="center" width="90%"}
+
+\tiny <https://app.powerbi.com/view?r=eyJrIjoiODhhNmI1ZWYtMmZmYy00NjVlLTk4MjQtYjlmMTUxZTJlYTI0IiwidCI6IjA0ZTcxZThlLTUwZDMtNDU1ZC04ODAzLWM3ZGI4ODhkNjRiYiJ9>
+
+\normalsize
+
+## Dashboard com R ou Python
+
+<https://quarto.org/docs/gallery/#dashboards>
+
+![](dashboard.png){fig-align="center" width="70%"}
+\tiny
+
+<https://github.com/mine-cetinkaya-rundel/ld-dashboard/blob/main/dashboard.qmd>
+
+<https://github.com/jjallaire/nfl-injuries-dashboard/blob/main/nfl-injuries.qmd>
+
+\normalsize
+
+## Por uma sociedade que busque
+
+por um pensamento de colaboração, cocriação e bem comum
+
+
+
+
+
+## Referências
+
+\tiny 
+
+- Smart Cities, Cidades Inteligentes nas Dimensões: Planejamento, Governança, Mobilidade, Educação e Saúde. Organizadores: Guedes, A.L.A; Soares, C.A.P., Rodriguez y Rodriguez, M.V. Brasil. 2021. URL = <https://smart.rio.br/wp-content/uploads/2021/04/E_BOOK-SMART_CITIES-2020-UFF-UNISUAM-RBCIH.pdf>
+
+- Society 5.0: A people-centric Super-smart society. Hitachi-UTokyo Laboratory. Japão. 2020. URL = <https://library.oapen.org/bitstream/handle/20.500.12657/41719/2020_Book_Society50.pdf>
+
+- The Smart City perspective: A necessary change from technical to urban innovation. Giffinger, R.; Lu, H. Itália. 2015. URL = <https://fondazionefeltrinelli.it/app/uploads/2018/01/The-Smart-City-perspective.-Rudolf-Giffinger-e-Hui-Lu.pdf>
+
+- Ranking Connected Smart Cities edição 2024. URL = <https://drive.google.com/file/d/1cRIwEyFvE6OuJfEp06v_BbzxUzemlR2u/view>
+
+
+
+
